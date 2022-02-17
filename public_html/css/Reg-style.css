@@ -1,0 +1,285 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.nav-item-admin{
+    height: 90px;
+    width: 70px;
+    font-weight: bolder;
+    font-size:12px;
+    margin: 9px;
+    border-style: ridge;
+    border-radius: 20px;
+}
+.nav-item{
+    height: 40px;
+    width: 70px;
+    font-weight: bolder;
+    font-size:12px;
+    margin: 9px;
+    border-style: ridge;
+    border-radius: 20px;
+}
+.nav-item-admin{
+    height: 50px;
+    width: 100px;
+    font-weight: bolder;
+    font-size:12px;
+    border-style: ridge;
+    border-radius: 20px;
+}
+.navbar{
+    background: none;
+    height:50px;
+}
+.brand{
+    position:static;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: -5px;
+    border-style: ridge;
+    border-radius: 80px;
+}
+.logo{
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    background: none;
+}
+.brand:hover{
+    position:relative;
+    margin-top: 110px;
+    margin-left: 0px;
+   background:linear-gradient(45deg, #fffaef, #ffffe7, #d9ecfb, #dbf4ff, #ffdce5, #fdd3d3, #fde3c7fd, #f8e8c4, #fbe9be);
+    background-size: 200% 200%;
+    -webkit-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+    transform: scale(1.1);
+}
+.backimg{
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+    margin-top: 3%;
+    margin-bottom: 200px;
+    border-radius: 400px;
+    transition: all .5s linear 0s;
+    transform-style: preserve-3d;
+    animation:  animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    50%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+}
+
+.backimg_small{
+    height: 350px;
+    width: 350px;
+    margin-bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    z-index: -1;
+    transform-style: preserve-3d;
+    animation:  animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.imgbox{
+    height: 800px;
+    width: 100%;
+    background:linear-gradient(45deg, #fffaef, #ffffe7, #d9ecfb, #dbf4ff, #ffdce5, #fdd3d3, #fde3c7fd, #f8e8c4, #fbe9be);
+    background-size: 1000% 1000%;
+    background-repeat: inherit;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    
+}
+.imgbox_small{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 5px 30px rgb(124, 117, 117);
+	  height: 100vh;
+}
+.small_text{
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+.anim {
+  background-image: url(../img/ezgif.com-gif-maker.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 380%;
+  line-height: .75;
+}
+ 
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1);
+    text-align: center;
+}
+
+li.nav-item:hover{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: -3px 3px 0 rgba(111, 124, 114,.5);
+    -webkit-transition: all .2s linear 0s;
+    transition: all .2s linear 0s;
+    transform: scale(1.2);
+}
+.log-container{
+  display: flex;
+  justify-content: center;
+  align-items:center !important;
+  height: 100vh;
+}
+.form{
+  width: 350px;
+  height: 550px;
+  box-shadow: 0 5px 30px rgb(124, 117, 117);
+}
+.Heading{
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  color: rgb(100, 97, 97);
+  margin-bottom: 20px;
+  font-weight: 550;
+}
+.btn button {
+  margin: 50px 0px 50px 50px;
+  border-style: none;
+  background-color: transparent;
+  color: rgb(93, 91, 91);
+  font-size: 18px;
+  font-weight: 550;
+}
+.formGroup{
+  display: flex;
+  justify-content: center;
+}
+.formGroup input{
+  border: none;
+  width: 80%;
+  border-bottom: 2px solid rgb(177, 175, 175);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  color: rgb(93, 91, 91);
+}
+input:focus {
+  outline: none !important;
+  border-bottom: 2px solid rgb(93, 91, 91);
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(93, 91, 91);
+}
+::placeholder {
+  color: rgb(168, 164, 164);
+}
+.checkBox{
+  display: flex;
+  justify-content: center;
+  margin: 16px!important;
+}
+ 
+#checkbox{
+  margin-right: 10px;
+  height: 15px;
+  width: 15px;
+}
+.text{
+  color: black;
+  font-size: 13px;
+}
+.btn2{
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: rgb(63, 62, 62);
+  border-style: none;
+  color: rgb(231, 226, 226);
+  font-weight: 600;
+}
+.btn2:hover{
+  background-color: rgb(134, 131, 131);
+}
+.btn button:hover{
+  border-bottom: 2px solid rgb(85, 83, 83);
+}
+ 
+/* hide signup form */
+.login{
+  display: none;
+}
+ 
+/* Login form code */
+.login{
+  margin-top: 40px;
+}
+.login .checkBox{
+  margin-top: 30px !important;
+}
+.table{
+  width: 400px;
+  margin-bottom: 100px;
+  box-shadow: 0 5px 30px rgb(124, 117, 117);
+}
+.btn-remove{
+  margin-left:50px;
+}
+.head {
+    margin: 50px 0px 50px 50px;
+  border-style: none;
+  background-color: transparent;
+  color: rgb(93, 91, 91);
+  font-size: 18px;
+  font-weight: 500;
+}
+.items{
+    height:30px;
+    width:30px;
+}
